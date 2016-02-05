@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AlertView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1kd-rY-AID">
+                    <rect key="frame" x="0.0" y="204" width="320" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是否放弃本次编辑？" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBp-fa-2Vh">
+                            <rect key="frame" x="50" y="21" width="144" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PjN-Pb-H2I">
+                            <rect key="frame" x="284" y="18" width="26" height="26"/>
+                            <state key="normal" image="btn_no">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="kjz-ae-FPW"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iri-hd-EPF">
+                            <rect key="frame" x="244" y="18" width="26" height="26"/>
+                            <state key="normal" image="btn_yes">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="STh-TF-1LX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.61960784310000006" green="0.47843137250000001" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="iri-hd-EPF" firstAttribute="centerY" secondItem="LBp-fa-2Vh" secondAttribute="centerY" id="6yb-tt-SQe"/>
+                        <constraint firstItem="iri-hd-EPF" firstAttribute="leading" secondItem="PjN-Pb-H2I" secondAttribute="leading" constant="-40" id="BaN-aJ-V7Q"/>
+                        <constraint firstAttribute="centerY" secondItem="LBp-fa-2Vh" secondAttribute="centerY" constant="-0.5" id="MUP-J5-bCr"/>
+                        <constraint firstAttribute="height" constant="60" id="ODV-Tu-77s"/>
+                        <constraint firstItem="LBp-fa-2Vh" firstAttribute="centerY" secondItem="PjN-Pb-H2I" secondAttribute="centerY" id="mJe-IR-dvK"/>
+                        <constraint firstItem="LBp-fa-2Vh" firstAttribute="leading" secondItem="1kd-rY-AID" secondAttribute="leading" constant="50" id="u2t-sF-uoJ"/>
+                        <constraint firstAttribute="trailing" secondItem="PjN-Pb-H2I" secondAttribute="trailing" constant="10" id="yNA-cz-B92"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="1kd-rY-AID" secondAttribute="centerX" id="HYy-ES-VHc"/>
+                <constraint firstAttribute="centerY" secondItem="1kd-rY-AID" secondAttribute="centerY" constant="50" id="vQ6-Vk-Sgl"/>
+                <constraint firstItem="1kd-rY-AID" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="veL-3U-7Mh"/>
+            </constraints>
+            <connections>
+                <outlet property="noBtn" destination="PjN-Pb-H2I" id="uGM-dc-bLT"/>
+                <outlet property="yesBtn" destination="iri-hd-EPF" id="pwG-ZA-iNZ"/>
+            </connections>
+            <point key="canvasLocation" x="251" y="253"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_no" width="26" height="26"/>
+        <image name="btn_yes" width="26" height="26"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

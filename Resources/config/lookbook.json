@@ -1,0 +1,72 @@
+{
+	"comment":"注释: Lookbook的元素配置",
+	"data" : [
+		{
+			"id" : 1,
+			"bg" : "mark_1_1.png",
+                  "labels" : [
+                  	{
+                              "position" : "5,144",
+                              "size" : "230,90",
+                              "font" : "Impact.ttf",
+                              "fontSize" : 90,
+                              "content" : "CLOSE"
+                        },
+                        {
+                              "position" : "5,30",
+                              "size" : "230,80",
+                              "font" : "Century Gothic.ttf",
+                              "fontSize" : 80,
+                              "content" : "OPEN"
+                        }
+                  ]
+		},
+            {
+                  "id" : 2,
+                  "bg" : "mark_2_1.png",
+                  "labels" : [
+                        {
+                              "position" : "88,168",
+                              "size" : "64,26",
+                              "font" : "Century Gothic.ttf",
+                              "fontSize" : 26,
+                              "content" : "EAT"
+                        },
+                        {
+                              "position" : "152,108",
+                              "size" : "64,26",
+                              "font" : "Century Gothic.ttf",
+                              "fontSize" : 26,
+                              "content" : "LOVE"
+                        },
+                        {
+                              "position" : "24,108",
+                              "size" : "64,26",
+                              "font" : "Century Gothic.ttf",
+                              "fontSize" : 26,
+                              "content" : "PRAY"
+                        },
+                        {
+                              "position" : "88,48",
+                              "size" : "64,26",
+                              "font" : "Century Gothic.ttf",
+                              "fontSize" : 26,
+                              "content" : "2015"
+                        }
+                  ]
+            },
+            {
+                  "id" : 3,
+                  "bg" : "mark_3_1.png",
+                  "labels" : [
+                        {
+                              "position" : "20,91",
+                              "size" : "200,60",
+                              "font" : "PT Banana Split.ttf",
+                              "fontSize" : 60,
+                              "content" : "Nopain"
+                        }
+                  ]
+            }
+	]
+}

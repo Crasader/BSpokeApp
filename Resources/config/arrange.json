@@ -1,0 +1,44 @@
+{
+	"comment" : "这里是注释   orietation是切换到哪个面才能激活该item",
+	"descipte": "",
+	"version" : 1.0,
+	"ratio": 11,
+	"arranges":[
+	{	
+		"id" : "1",
+		"type" : 1,
+	    "left_items" : [
+			{
+				"size" : "16,16",
+				"rotate" : 0,
+				"position" : "8,8",
+                "isLeft" : true,
+                "orietation" : "2 3"
+			},
+			{
+				"size" : "16,16",
+				"rotate" : 0,
+				"position" : "0,-75",
+                "isLeft" : true,
+                "orietation" : "2"
+			}	
+		],
+		"right_items" : [
+			{
+				"size" : "16,16",
+				"rotate" : 0,
+				"position" : "-8,8",
+                "isLeft" : false,
+                "orietation" : "3"
+			},
+			{
+				"size" : "16,16",
+				"rotate" : 0,
+				"position" : "0,-75",
+                "isLeft" : false,
+                "orietation" : "0"
+			}
+		]
+	}
+	]
+}

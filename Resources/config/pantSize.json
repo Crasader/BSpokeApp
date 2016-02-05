@@ -1,0 +1,15 @@
+{
+	"comment":"注释: 该文件是切片的大小，现固定是40, 145  originOffset相对左上角偏移",
+	"data" : [
+		{
+			"type" : 1,
+			"size" : "40,145",
+            "originOffset" : "19,28"
+		},
+		{
+			"type" : 2,
+			"size" : "40,145",
+            "originOffset" : "19,28"
+		}
+	]
+}

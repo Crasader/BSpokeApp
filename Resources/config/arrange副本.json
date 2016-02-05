@@ -1,0 +1,29 @@
+{
+	"comment" : "这里是注释: \
+		arranges里面是排列的数据,每一项数据代表每一种排列的数据（一种排列长短分开两个数据) \
+		arranges数据：\
+			id 	  -> 排列id \
+			type  -> 长短的类型， 1: 长， 2: 短 \
+			items -> 一类型图案排列的数据 \
+		items数据：\
+			size 	 -> 大小 \
+			rotate 	 -> 旋转角度 \
+			position -> x,y坐标（可以多个，用空格隔开例如 ： 1,-1 10,10）\
+	",
+	"descipte": "",
+	"version" : 1.0,
+	"ratio": 4,
+	"arranges":[
+	{	
+		"id" : "1",
+		"type" : 1,
+		"items" : [
+			{
+				"size" : "20,20",
+				"rotate" : 20,
+				"position" : "0,30"
+			}
+		]
+	}
+	]
+}

@@ -1,0 +1,1146 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7310FC2A1AF22E830059178C /* LeggingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7310FC291AF22E830059178C /* LeggingViewController.m */; };
+		732060091B03EC8C00FEEF88 /* LeggingInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732060081B03EC8C00FEEF88 /* LeggingInfoView.xib */; };
+		732256301B0357D2008C7230 /* MainPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7322562F1B0357D2008C7230 /* MainPageContentViewController.m */; };
+		732256321B035ADE008C7230 /* slider in Resources */ = {isa = PBXBuildFile; fileRef = 732256311B035ADE008C7230 /* slider */; };
+		732256351B036BF7008C7230 /* LeggingChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 732256341B036BF7008C7230 /* LeggingChooseViewController.m */; };
+		732256371B036DB5008C7230 /* products in Resources */ = {isa = PBXBuildFile; fileRef = 732256361B036DB5008C7230 /* products */; };
+		7322563A1B037C7F008C7230 /* LeggingInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 732256391B037C7F008C7230 /* LeggingInfoViewController.m */; };
+		732989D41B5E1B790084C157 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732989D31B5E1B790084C157 /* CoreImage.framework */; };
+		732989D81B5E24820084C157 /* BottomCollectionViewLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 732989D71B5E24820084C157 /* BottomCollectionViewLabelCell.m */; };
+		733A32651AF6298000F981AD /* EffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733A32641AF6298000F981AD /* EffectViewController.m */; };
+		733A326A1AF71A0300F981AD /* CocosView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 733A32691AF71A0300F981AD /* CocosView.mm */; };
+		735B76B01B3D27130026E206 /* ChooseEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735B76AF1B3D27130026E206 /* ChooseEffectViewController.m */; };
+		73A165BE1B296A5900633B46 /* leggingItem in Resources */ = {isa = PBXBuildFile; fileRef = 73A165BD1B296A5900633B46 /* leggingItem */; };
+		73A165C11B29791D00633B46 /* LeggingPatternChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A165C01B29791D00633B46 /* LeggingPatternChooseViewController.m */; };
+		73A65B971B0F75E600088A0C /* btn_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A65B921B0F75E600088A0C /* btn_close.png */; };
+		73A65B981B0F75E600088A0C /* btn_rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A65B931B0F75E600088A0C /* btn_rotate.png */; };
+		73A65B991B0F75E600088A0C /* editbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A65B941B0F75E600088A0C /* editbox.png */; };
+		73A65B9A1B0F75E600088A0C /* lookbook in Resources */ = {isa = PBXBuildFile; fileRef = 73A65B951B0F75E600088A0C /* lookbook */; };
+		73A65B9B1B0F75E600088A0C /* typeline.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A65B961B0F75E600088A0C /* typeline.png */; };
+		73B362941B2439B200E0A8B0 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B362921B2439B200E0A8B0 /* AlertView.m */; };
+		73B362951B2439B200E0A8B0 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73B362931B2439B200E0A8B0 /* AlertView.xib */; };
+		73B362981B243F3400E0A8B0 /* LinePaintEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B362961B243F3300E0A8B0 /* LinePaintEffect.cpp */; };
+		73B6673E1AFB59C500F0B390 /* BottomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B6673D1AFB59C500F0B390 /* BottomCollectionViewCell.m */; };
+		73B667411AFB623900F0B390 /* TestUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B667401AFB623900F0B390 /* TestUIView.m */; };
+		73B761091AEE7C3A00E11CCF /* CocosAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73B761071AEE7C3A00E11CCF /* CocosAppDelegate.mm */; };
+		73B76DE61AFCAC4E005299C2 /* EffectDataFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B76DE41AFCAC4E005299C2 /* EffectDataFactory.cpp */; };
+		73B76DE91AFCBED9005299C2 /* ArrangeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B76DE71AFCBED9005299C2 /* ArrangeScene.cpp */; };
+		73B76E051AFCBF3B005299C2 /* Legging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B76E011AFCBF3B005299C2 /* Legging.cpp */; };
+		73B76E061AFCBF3B005299C2 /* LeggingHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B76E031AFCBF3B005299C2 /* LeggingHelper.cpp */; };
+		73B76E0A1AFCBFF3005299C2 /* CocosUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B76E081AFCBFF3005299C2 /* CocosUtil.cpp */; };
+		73B76E0C1AFCC035005299C2 /* config in Resources */ = {isa = PBXBuildFile; fileRef = 73B76E0B1AFCC035005299C2 /* config */; };
+		73B76E0E1AFCC062005299C2 /* leggings in Resources */ = {isa = PBXBuildFile; fileRef = 73B76E0D1AFCC062005299C2 /* leggings */; };
+		73B86ADE1B0EC50A002B8796 /* MyEditText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B86ADA1B0EC50A002B8796 /* MyEditText.cpp */; };
+		73B86ADF1B0EC50A002B8796 /* MyTextField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B86ADC1B0EC50A002B8796 /* MyTextField.cpp */; };
+		73B86AE21B0EC51A002B8796 /* LookbookScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B86AE01B0EC51A002B8796 /* LookbookScene.cpp */; };
+		73B8BC671AF7687500DC27C3 /* EffectManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B8BC5C1AF7687500DC27C3 /* EffectManager.cpp */; };
+		73B8BC681AF7687500DC27C3 /* IEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B8BC5E1AF7687500DC27C3 /* IEffect.cpp */; };
+		73B8BC691AF7687500DC27C3 /* DotMoveEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B8BC611AF7687500DC27C3 /* DotMoveEffect.cpp */; };
+		73B8BC6A1AF7687500DC27C3 /* LineMoveEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B8BC631AF7687500DC27C3 /* LineMoveEffect.cpp */; };
+		73B8BC6B1AF7687500DC27C3 /* PaintEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B8BC651AF7687500DC27C3 /* PaintEffect.cpp */; };
+		73B8BC6E1AF768AB00DC27C3 /* EffectScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B8BC6C1AF768AB00DC27C3 /* EffectScene.cpp */; };
+		73B8BC861AF76AE600DC27C3 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 73B8BC7F1AF76AE600DC27C3 /* CloseNormal.png */; };
+		73B8BC871AF76AE600DC27C3 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 73B8BC801AF76AE600DC27C3 /* CloseSelected.png */; };
+		73B8BC891AF76AE600DC27C3 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 73B8BC831AF76AE600DC27C3 /* HelloWorld.png */; };
+		73B8BC951AF76B6800DC27C3 /* effect in Resources */ = {isa = PBXBuildFile; fileRef = 73B8BC8F1AF76B6800DC27C3 /* effect */; };
+		73B8BC961AF76B6800DC27C3 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 73B8BC901AF76B6800DC27C3 /* fonts */; };
+		73B8BC971AF76B6800DC27C3 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 73B8BC911AF76B6800DC27C3 /* image */; };
+		73B8BC981AF76B6800DC27C3 /* pattern in Resources */ = {isa = PBXBuildFile; fileRef = 73B8BC921AF76B6800DC27C3 /* pattern */; };
+		73B8BC991AF76B6800DC27C3 /* res in Resources */ = {isa = PBXBuildFile; fileRef = 73B8BC931AF76B6800DC27C3 /* res */; };
+		73B8BC9A1AF76B6800DC27C3 /* shader in Resources */ = {isa = PBXBuildFile; fileRef = 73B8BC941AF76B6800DC27C3 /* shader */; };
+		73B95A281B3BD82500C6F500 /* LeggingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B95A271B3BD82500C6F500 /* LeggingNavigationController.m */; };
+		73B9907B1B3D0BB8009FB142 /* ClipEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B990791B3D0BB8009FB142 /* ClipEffect.cpp */; };
+		73B9C1111B414598009C910B /* ArrangeBtn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B9C10D1B414598009C910B /* ArrangeBtn.cpp */; };
+		73B9C1121B414598009C910B /* ArrangeItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B9C10F1B414598009C910B /* ArrangeItem.cpp */; };
+		73B9C1141B4145F6009C910B /* btn_add_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 73B9C1131B4145F6009C910B /* btn_add_pattern.png */; };
+		73BA28111AFE0DE90076F63D /* SceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73BA280F1AFE0DE90076F63D /* SceneManager.cpp */; };
+		73BC81341B0604580059ED21 /* MyUITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BC81331B0604580059ED21 /* MyUITabBar.m */; };
+		73BC81381B0604940059ED21 /* BottomTabBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BC81371B0604940059ED21 /* BottomTabBarItemView.m */; };
+		73BCFC441B0327E800EAB4C0 /* splash screen in Resources */ = {isa = PBXBuildFile; fileRef = 73BCFC431B0327E800EAB4C0 /* splash screen */; };
+		73BCFC4A1B032F6F00EAB4C0 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73BCFC491B032F6E00EAB4C0 /* Launch Screen.xib */; };
+		73BCFC501B0334CE00EAB4C0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BCFC4F1B0334CE00EAB4C0 /* MainViewController.m */; };
+		73BCFD0F1B170806000A60CF /* MyTouchEventListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73BCFD0D1B170806000A60CF /* MyTouchEventListener.cpp */; };
+		73BCFD121B170BED000A60CF /* btn_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BCFD111B170BED000A60CF /* btn_cancel.png */; };
+		73BD67541AEE2D950096B29B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BD67531AEE2D950096B29B /* main.m */; };
+		73BD67571AEE2D950096B29B /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73BD67561AEE2D950096B29B /* AppDelegate.mm */; };
+		73BD675A1AEE2D950096B29B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BD67591AEE2D950096B29B /* ViewController.m */; };
+		73BD675D1AEE2D950096B29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BD675B1AEE2D950096B29B /* Main.storyboard */; };
+		73BD675F1AEE2D950096B29B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73BD675E1AEE2D950096B29B /* Images.xcassets */; };
+		73BD676E1AEE2D950096B29B /* BSpokeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BD676D1AEE2D950096B29B /* BSpokeAppTests.m */; };
+		73BD67891AEE4D1A0096B29B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BD67881AEE4D1A0096B29B /* CoreMotion.framework */; };
+		73BD678B1AEE4D2A0096B29B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BD678A1AEE4D2A0096B29B /* Foundation.framework */; };
+		73BD678D1AEE4D370096B29B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BD678C1AEE4D370096B29B /* UIKit.framework */; };
+		73BD678F1AEE4D470096B29B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BD678E1AEE4D470096B29B /* OpenGLES.framework */; };
+		73BD67941AEE542B0096B29B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BD67931AEE542B0096B29B /* CoreGraphics.framework */; };
+		73BD67961AEE545A0096B29B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BD67951AEE545A0096B29B /* libz.dylib */; };
+		73BD67981AEE54BF0096B29B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BD67971AEE54BF0096B29B /* QuartzCore.framework */; };
+		73BD679A1AEE54CA0096B29B /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BD67991AEE54CA0096B29B /* OpenAL.framework */; };
+		73BD679C1AEE54D60096B29B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BD679B1AEE54D60096B29B /* AVFoundation.framework */; };
+		73BD679E1AEE54E20096B29B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BD679D1AEE54E20096B29B /* AudioToolbox.framework */; };
+		73BD99131B0475510059B29F /* LeggingInfoSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BD99121B0475510059B29F /* LeggingInfoSlideView.m */; };
+		73BD99171B0485380059B29F /* MySlideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BD99161B0485380059B29F /* MySlideMenuController.m */; };
+		73C454381B453C8400F9941D /* MyComplexTouchEventListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73C454361B453C8400F9941D /* MyComplexTouchEventListener.cpp */; };
+		73D3760A1B0B2676008E14B2 /* PhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D376091B0B2676008E14B2 /* PhotoEditViewController.m */; };
+		73D3763F1B0B49A3008E14B2 /* LookBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D3763E1B0B49A3008E14B2 /* LookBookViewController.m */; };
+		73D64D051B4BE172000378D0 /* LeggingPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D64D041B4BE172000378D0 /* LeggingPreviewViewController.m */; };
+		73DB6BFE1B50F42F00F60347 /* TestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DB6BFD1B50F42F00F60347 /* TestViewController1.m */; };
+		73DCD5B81B4EDA570096911B /* ShakeAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73DCD5B61B4EDA570096911B /* ShakeAction.cpp */; };
+		73DCD5C61B4EE31E0096911B /* AudioManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73DCD5C41B4EE31E0096911B /* AudioManager.cpp */; };
+		73DCD5C81B4EE40C0096911B /* sound in Resources */ = {isa = PBXBuildFile; fileRef = 73DCD5C71B4EE40C0096911B /* sound */; };
+		73DCF71E1B4E75D600100E90 /* LookbookNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DCF71D1B4E75D600100E90 /* LookbookNavigationController.m */; };
+		73DDFF511B4C3AC10061FC2A /* LinearLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DDFF501B4C3AC10061FC2A /* LinearLayoutView.m */; };
+		73DFEDAF1B4D72D7008D4B75 /* LeggingPreviewScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73DFEDAD1B4D72D7008D4B75 /* LeggingPreviewScene.cpp */; };
+		73F76E1E1B09B13400E2C5A4 /* PhotoChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F76E1D1B09B13400E2C5A4 /* PhotoChooseViewController.m */; };
+		73F76E231B09B53900E2C5A4 /* PhotoChooseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F76E221B09B53900E2C5A4 /* PhotoChooseCollectionViewCell.m */; };
+		73F76E561B09FB0C00E2C5A4 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F76E1F1B09B19100E2C5A4 /* Photos.framework */; };
+		73F8853A1C6498760026A171 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F885391C6497C20026A171 /* libcocos2d iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73BD67681AEE2D950096B29B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73BD67461AEE2D940096B29B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73BD674D1AEE2D940096B29B;
+			remoteInfo = BSpokeApp;
+		};
+		73F885361C6497C20026A171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73F885311C6497C10026A171 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1551A33F158F2AB200E66CFE;
+			remoteInfo = "libcocos2d Mac";
+		};
+		73F885381C6497C20026A171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73F885311C6497C10026A171 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A07A4D641783777C0073F6A7;
+			remoteInfo = "libcocos2d iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7310FC281AF22E830059178C /* LeggingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeggingViewController.h; sourceTree = "<group>"; };
+		7310FC291AF22E830059178C /* LeggingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeggingViewController.m; sourceTree = "<group>"; };
+		732060081B03EC8C00FEEF88 /* LeggingInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeggingInfoView.xib; sourceTree = "<group>"; };
+		7322562E1B0357D2008C7230 /* MainPageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageContentViewController.h; sourceTree = "<group>"; };
+		7322562F1B0357D2008C7230 /* MainPageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageContentViewController.m; sourceTree = "<group>"; };
+		732256311B035ADE008C7230 /* slider */ = {isa = PBXFileReference; lastKnownFileType = folder; path = slider; sourceTree = "<group>"; };
+		732256331B036BF7008C7230 /* LeggingChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeggingChooseViewController.h; sourceTree = "<group>"; };
+		732256341B036BF7008C7230 /* LeggingChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeggingChooseViewController.m; sourceTree = "<group>"; };
+		732256361B036DB5008C7230 /* products */ = {isa = PBXFileReference; lastKnownFileType = folder; path = products; sourceTree = "<group>"; };
+		732256381B037C7F008C7230 /* LeggingInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeggingInfoViewController.h; sourceTree = "<group>"; };
+		732256391B037C7F008C7230 /* LeggingInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeggingInfoViewController.m; sourceTree = "<group>"; };
+		732989D31B5E1B790084C157 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		732989D61B5E24820084C157 /* BottomCollectionViewLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomCollectionViewLabelCell.h; sourceTree = "<group>"; };
+		732989D71B5E24820084C157 /* BottomCollectionViewLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomCollectionViewLabelCell.m; sourceTree = "<group>"; };
+		733A32631AF6298000F981AD /* EffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectViewController.h; sourceTree = "<group>"; };
+		733A32641AF6298000F981AD /* EffectViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = EffectViewController.m; sourceTree = "<group>"; };
+		733A32681AF71A0300F981AD /* CocosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocosView.h; path = cocos/CocosView.h; sourceTree = "<group>"; };
+		733A32691AF71A0300F981AD /* CocosView.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = CocosView.mm; path = cocos/CocosView.mm; sourceTree = "<group>"; };
+		735B76AE1B3D27130026E206 /* ChooseEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseEffectViewController.h; sourceTree = "<group>"; };
+		735B76AF1B3D27130026E206 /* ChooseEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseEffectViewController.m; sourceTree = "<group>"; };
+		736470F61B3D3980005743A8 /* Effect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Effect.h; sourceTree = "<group>"; };
+		73A165BD1B296A5900633B46 /* leggingItem */ = {isa = PBXFileReference; lastKnownFileType = folder; path = leggingItem; sourceTree = "<group>"; };
+		73A165BF1B29791D00633B46 /* LeggingPatternChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeggingPatternChooseViewController.h; sourceTree = "<group>"; };
+		73A165C01B29791D00633B46 /* LeggingPatternChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeggingPatternChooseViewController.m; sourceTree = "<group>"; };
+		73A65B921B0F75E600088A0C /* btn_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close.png; sourceTree = "<group>"; };
+		73A65B931B0F75E600088A0C /* btn_rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_rotate.png; sourceTree = "<group>"; };
+		73A65B941B0F75E600088A0C /* editbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editbox.png; sourceTree = "<group>"; };
+		73A65B951B0F75E600088A0C /* lookbook */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lookbook; sourceTree = "<group>"; };
+		73A65B961B0F75E600088A0C /* typeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = typeline.png; sourceTree = "<group>"; };
+		73B362911B2439B200E0A8B0 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		73B362921B2439B200E0A8B0 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		73B362931B2439B200E0A8B0 /* AlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		73B362961B243F3300E0A8B0 /* LinePaintEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinePaintEffect.cpp; sourceTree = "<group>"; };
+		73B362971B243F3300E0A8B0 /* LinePaintEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinePaintEffect.h; sourceTree = "<group>"; };
+		73B6673C1AFB59C500F0B390 /* BottomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomCollectionViewCell.h; sourceTree = "<group>"; };
+		73B6673D1AFB59C500F0B390 /* BottomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomCollectionViewCell.m; sourceTree = "<group>"; };
+		73B6673F1AFB623800F0B390 /* TestUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestUIView.h; path = test/TestUIView.h; sourceTree = "<group>"; };
+		73B667401AFB623900F0B390 /* TestUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestUIView.m; path = test/TestUIView.m; sourceTree = "<group>"; };
+		73B761071AEE7C3A00E11CCF /* CocosAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CocosAppDelegate.mm; path = cocos/CocosAppDelegate.mm; sourceTree = "<group>"; };
+		73B761081AEE7C3A00E11CCF /* CocosAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocosAppDelegate.h; path = cocos/CocosAppDelegate.h; sourceTree = "<group>"; };
+		73B76DE31AFCAC4E005299C2 /* DotMoveEffectData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotMoveEffectData.h; sourceTree = "<group>"; };
+		73B76DE41AFCAC4E005299C2 /* EffectDataFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EffectDataFactory.cpp; sourceTree = "<group>"; };
+		73B76DE51AFCAC4E005299C2 /* EffectDataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectDataFactory.h; sourceTree = "<group>"; };
+		73B76DE71AFCBED9005299C2 /* ArrangeScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArrangeScene.cpp; path = cocos/ArrangeScene.cpp; sourceTree = "<group>"; };
+		73B76DE81AFCBED9005299C2 /* ArrangeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrangeScene.h; path = cocos/ArrangeScene.h; sourceTree = "<group>"; };
+		73B76E011AFCBF3B005299C2 /* Legging.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Legging.cpp; sourceTree = "<group>"; };
+		73B76E021AFCBF3B005299C2 /* Legging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Legging.h; sourceTree = "<group>"; };
+		73B76E031AFCBF3B005299C2 /* LeggingHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LeggingHelper.cpp; sourceTree = "<group>"; };
+		73B76E041AFCBF3B005299C2 /* LeggingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeggingHelper.h; sourceTree = "<group>"; };
+		73B76E081AFCBFF3005299C2 /* CocosUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CocosUtil.cpp; sourceTree = "<group>"; };
+		73B76E091AFCBFF3005299C2 /* CocosUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosUtil.h; sourceTree = "<group>"; };
+		73B76E0B1AFCC035005299C2 /* config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = config; sourceTree = "<group>"; };
+		73B76E0D1AFCC062005299C2 /* leggings */ = {isa = PBXFileReference; lastKnownFileType = folder; path = leggings; sourceTree = "<group>"; };
+		73B86ADA1B0EC50A002B8796 /* MyEditText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyEditText.cpp; path = cocos/textField/MyEditText.cpp; sourceTree = "<group>"; };
+		73B86ADB1B0EC50A002B8796 /* MyEditText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyEditText.h; path = cocos/textField/MyEditText.h; sourceTree = "<group>"; };
+		73B86ADC1B0EC50A002B8796 /* MyTextField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyTextField.cpp; path = cocos/textField/MyTextField.cpp; sourceTree = "<group>"; };
+		73B86ADD1B0EC50A002B8796 /* MyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTextField.h; path = cocos/textField/MyTextField.h; sourceTree = "<group>"; };
+		73B86AE01B0EC51A002B8796 /* LookbookScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LookbookScene.cpp; path = cocos/LookbookScene.cpp; sourceTree = "<group>"; };
+		73B86AE11B0EC51A002B8796 /* LookbookScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LookbookScene.h; path = cocos/LookbookScene.h; sourceTree = "<group>"; };
+		73B8BC5C1AF7687500DC27C3 /* EffectManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EffectManager.cpp; sourceTree = "<group>"; };
+		73B8BC5D1AF7687500DC27C3 /* EffectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectManager.h; sourceTree = "<group>"; };
+		73B8BC5E1AF7687500DC27C3 /* IEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IEffect.cpp; sourceTree = "<group>"; };
+		73B8BC5F1AF7687500DC27C3 /* IEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEffect.h; sourceTree = "<group>"; };
+		73B8BC611AF7687500DC27C3 /* DotMoveEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DotMoveEffect.cpp; sourceTree = "<group>"; };
+		73B8BC621AF7687500DC27C3 /* DotMoveEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotMoveEffect.h; sourceTree = "<group>"; };
+		73B8BC631AF7687500DC27C3 /* LineMoveEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineMoveEffect.cpp; sourceTree = "<group>"; };
+		73B8BC641AF7687500DC27C3 /* LineMoveEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineMoveEffect.h; sourceTree = "<group>"; };
+		73B8BC651AF7687500DC27C3 /* PaintEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PaintEffect.cpp; sourceTree = "<group>"; };
+		73B8BC661AF7687500DC27C3 /* PaintEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintEffect.h; sourceTree = "<group>"; };
+		73B8BC6C1AF768AB00DC27C3 /* EffectScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EffectScene.cpp; path = cocos/EffectScene.cpp; sourceTree = "<group>"; };
+		73B8BC6D1AF768AB00DC27C3 /* EffectScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EffectScene.h; path = cocos/EffectScene.h; sourceTree = "<group>"; };
+		73B8BC7F1AF76AE600DC27C3 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
+		73B8BC801AF76AE600DC27C3 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
+		73B8BC831AF76AE600DC27C3 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
+		73B8BC8F1AF76B6800DC27C3 /* effect */ = {isa = PBXFileReference; lastKnownFileType = folder; path = effect; sourceTree = "<group>"; };
+		73B8BC901AF76B6800DC27C3 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		73B8BC911AF76B6800DC27C3 /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = image; sourceTree = "<group>"; };
+		73B8BC921AF76B6800DC27C3 /* pattern */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pattern; sourceTree = "<group>"; };
+		73B8BC931AF76B6800DC27C3 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
+		73B8BC941AF76B6800DC27C3 /* shader */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shader; sourceTree = "<group>"; };
+		73B95A261B3BD82500C6F500 /* LeggingNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeggingNavigationController.h; sourceTree = "<group>"; };
+		73B95A271B3BD82500C6F500 /* LeggingNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeggingNavigationController.m; sourceTree = "<group>"; };
+		73B990791B3D0BB8009FB142 /* ClipEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClipEffect.cpp; sourceTree = "<group>"; };
+		73B9907A1B3D0BB8009FB142 /* ClipEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipEffect.h; sourceTree = "<group>"; };
+		73B9C10D1B414598009C910B /* ArrangeBtn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArrangeBtn.cpp; path = cocos/Arrange/ArrangeBtn.cpp; sourceTree = "<group>"; };
+		73B9C10E1B414598009C910B /* ArrangeBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrangeBtn.h; path = cocos/Arrange/ArrangeBtn.h; sourceTree = "<group>"; };
+		73B9C10F1B414598009C910B /* ArrangeItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArrangeItem.cpp; path = cocos/Arrange/ArrangeItem.cpp; sourceTree = "<group>"; };
+		73B9C1101B414598009C910B /* ArrangeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrangeItem.h; path = cocos/Arrange/ArrangeItem.h; sourceTree = "<group>"; };
+		73B9C1131B4145F6009C910B /* btn_add_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_add_pattern.png; sourceTree = "<group>"; };
+		73BA280F1AFE0DE90076F63D /* SceneManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneManager.cpp; path = cocos/SceneManager.cpp; sourceTree = "<group>"; };
+		73BA28101AFE0DE90076F63D /* SceneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneManager.h; path = cocos/SceneManager.h; sourceTree = "<group>"; };
+		73BC81321B0604580059ED21 /* MyUITabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUITabBar.h; sourceTree = "<group>"; };
+		73BC81331B0604580059ED21 /* MyUITabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUITabBar.m; sourceTree = "<group>"; };
+		73BC81361B0604940059ED21 /* BottomTabBarItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomTabBarItemView.h; sourceTree = "<group>"; };
+		73BC81371B0604940059ED21 /* BottomTabBarItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomTabBarItemView.m; sourceTree = "<group>"; };
+		73BCFC431B0327E800EAB4C0 /* splash screen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "splash screen"; sourceTree = "<group>"; };
+		73BCFC491B032F6E00EAB4C0 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		73BCFC4E1B0334CE00EAB4C0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		73BCFC4F1B0334CE00EAB4C0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		73BCFD0D1B170806000A60CF /* MyTouchEventListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyTouchEventListener.cpp; path = cocos/MyTouchEventListener.cpp; sourceTree = "<group>"; };
+		73BCFD0E1B170806000A60CF /* MyTouchEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTouchEventListener.h; path = cocos/MyTouchEventListener.h; sourceTree = "<group>"; };
+		73BCFD101B1708BA000A60CF /* BaseEffectData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEffectData.h; sourceTree = "<group>"; };
+		73BCFD111B170BED000A60CF /* btn_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_cancel.png; sourceTree = "<group>"; };
+		73BD674E1AEE2D940096B29B /* BSpokeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSpokeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BD67521AEE2D950096B29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BD67531AEE2D950096B29B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73BD67551AEE2D950096B29B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73BD67561AEE2D950096B29B /* AppDelegate.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		73BD67581AEE2D950096B29B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		73BD67591AEE2D950096B29B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		73BD675C1AEE2D950096B29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73BD675E1AEE2D950096B29B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../BSpokeApp/Images.xcassets; sourceTree = "<group>"; };
+		73BD67671AEE2D950096B29B /* BSpokeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSpokeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BD676C1AEE2D950096B29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BD676D1AEE2D950096B29B /* BSpokeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSpokeAppTests.m; sourceTree = "<group>"; };
+		73BD67881AEE4D1A0096B29B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		73BD678A1AEE4D2A0096B29B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73BD678C1AEE4D370096B29B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		73BD678E1AEE4D470096B29B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		73BD67931AEE542B0096B29B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73BD67951AEE545A0096B29B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		73BD67971AEE54BF0096B29B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		73BD67991AEE54CA0096B29B /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		73BD679B1AEE54D60096B29B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		73BD679D1AEE54E20096B29B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		73BD99111B0475510059B29F /* LeggingInfoSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeggingInfoSlideView.h; sourceTree = "<group>"; };
+		73BD99121B0475510059B29F /* LeggingInfoSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeggingInfoSlideView.m; sourceTree = "<group>"; };
+		73BD99151B0485380059B29F /* MySlideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySlideMenuController.h; sourceTree = "<group>"; };
+		73BD99161B0485380059B29F /* MySlideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySlideMenuController.m; sourceTree = "<group>"; };
+		73C454361B453C8400F9941D /* MyComplexTouchEventListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MyComplexTouchEventListener.cpp; path = cocos/MyComplexTouchEventListener.cpp; sourceTree = "<group>"; };
+		73C454371B453C8400F9941D /* MyComplexTouchEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyComplexTouchEventListener.h; path = cocos/MyComplexTouchEventListener.h; sourceTree = "<group>"; };
+		73D376081B0B2676008E14B2 /* PhotoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoEditViewController.h; sourceTree = "<group>"; };
+		73D376091B0B2676008E14B2 /* PhotoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoEditViewController.m; sourceTree = "<group>"; };
+		73D3763D1B0B49A3008E14B2 /* LookBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookBookViewController.h; sourceTree = "<group>"; };
+		73D3763E1B0B49A3008E14B2 /* LookBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookBookViewController.m; sourceTree = "<group>"; };
+		73D64D031B4BE172000378D0 /* LeggingPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeggingPreviewViewController.h; sourceTree = "<group>"; };
+		73D64D041B4BE172000378D0 /* LeggingPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeggingPreviewViewController.m; sourceTree = "<group>"; };
+		73DB6BFC1B50F42F00F60347 /* TestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController1.h; sourceTree = "<group>"; };
+		73DB6BFD1B50F42F00F60347 /* TestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController1.m; sourceTree = "<group>"; };
+		73DCD5B61B4EDA570096911B /* ShakeAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShakeAction.cpp; path = cocos/ShakeAction.cpp; sourceTree = "<group>"; };
+		73DCD5B71B4EDA570096911B /* ShakeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShakeAction.h; path = cocos/ShakeAction.h; sourceTree = "<group>"; };
+		73DCD5C41B4EE31E0096911B /* AudioManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioManager.cpp; sourceTree = "<group>"; };
+		73DCD5C51B4EE31E0096911B /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
+		73DCD5C71B4EE40C0096911B /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sound; sourceTree = "<group>"; };
+		73DCF71C1B4E75D600100E90 /* LookbookNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookbookNavigationController.h; sourceTree = "<group>"; };
+		73DCF71D1B4E75D600100E90 /* LookbookNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookbookNavigationController.m; sourceTree = "<group>"; };
+		73DDFF4F1B4C3AC10061FC2A /* LinearLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinearLayoutView.h; path = widget/LinearLayoutView.h; sourceTree = "<group>"; };
+		73DDFF501B4C3AC10061FC2A /* LinearLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinearLayoutView.m; path = widget/LinearLayoutView.m; sourceTree = "<group>"; };
+		73DFEDAD1B4D72D7008D4B75 /* LeggingPreviewScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LeggingPreviewScene.cpp; path = cocos/LeggingPreviewScene.cpp; sourceTree = "<group>"; };
+		73DFEDAE1B4D72D7008D4B75 /* LeggingPreviewScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeggingPreviewScene.h; path = cocos/LeggingPreviewScene.h; sourceTree = "<group>"; };
+		73F76E1C1B09B13400E2C5A4 /* PhotoChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoChooseViewController.h; sourceTree = "<group>"; };
+		73F76E1D1B09B13400E2C5A4 /* PhotoChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoChooseViewController.m; sourceTree = "<group>"; };
+		73F76E1F1B09B19100E2C5A4 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		73F76E211B09B53900E2C5A4 /* PhotoChooseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoChooseCollectionViewCell.h; sourceTree = "<group>"; };
+		73F76E221B09B53900E2C5A4 /* PhotoChooseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoChooseCollectionViewCell.m; sourceTree = "<group>"; };
+		73F885311C6497C10026A171 /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73BD674B1AEE2D940096B29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F8853A1C6498760026A171 /* libcocos2d iOS.a in Frameworks */,
+				732989D41B5E1B790084C157 /* CoreImage.framework in Frameworks */,
+				73F76E561B09FB0C00E2C5A4 /* Photos.framework in Frameworks */,
+				73BD679E1AEE54E20096B29B /* AudioToolbox.framework in Frameworks */,
+				73BD679C1AEE54D60096B29B /* AVFoundation.framework in Frameworks */,
+				73BD679A1AEE54CA0096B29B /* OpenAL.framework in Frameworks */,
+				73BD67981AEE54BF0096B29B /* QuartzCore.framework in Frameworks */,
+				73BD67961AEE545A0096B29B /* libz.dylib in Frameworks */,
+				73BD67941AEE542B0096B29B /* CoreGraphics.framework in Frameworks */,
+				73BD678F1AEE4D470096B29B /* OpenGLES.framework in Frameworks */,
+				73BD678D1AEE4D370096B29B /* UIKit.framework in Frameworks */,
+				73BD678B1AEE4D2A0096B29B /* Foundation.framework in Frameworks */,
+				73BD67891AEE4D1A0096B29B /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BD67641AEE2D950096B29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73B761061AEE7C2B00E11CCF /* cocos */ = {
+			isa = PBXGroup;
+			children = (
+				73B9C10B1B41457B009C910B /* Arrange */,
+				73B86AD91B0EC4DD002B8796 /* editText */,
+				73B76E071AFCBFF3005299C2 /* util */,
+				73B76E001AFCBF3B005299C2 /* Legging */,
+				73B8BC5B1AF7687500DC27C3 /* Effect */,
+				73B8BC6C1AF768AB00DC27C3 /* EffectScene.cpp */,
+				73B8BC6D1AF768AB00DC27C3 /* EffectScene.h */,
+				73B76DE71AFCBED9005299C2 /* ArrangeScene.cpp */,
+				73B76DE81AFCBED9005299C2 /* ArrangeScene.h */,
+				73B86AE01B0EC51A002B8796 /* LookbookScene.cpp */,
+				73B86AE11B0EC51A002B8796 /* LookbookScene.h */,
+				73DFEDAD1B4D72D7008D4B75 /* LeggingPreviewScene.cpp */,
+				73DFEDAE1B4D72D7008D4B75 /* LeggingPreviewScene.h */,
+				73B761071AEE7C3A00E11CCF /* CocosAppDelegate.mm */,
+				73B761081AEE7C3A00E11CCF /* CocosAppDelegate.h */,
+				733A32691AF71A0300F981AD /* CocosView.mm */,
+				733A32681AF71A0300F981AD /* CocosView.h */,
+				73BA280F1AFE0DE90076F63D /* SceneManager.cpp */,
+				73BA28101AFE0DE90076F63D /* SceneManager.h */,
+				73BCFD0D1B170806000A60CF /* MyTouchEventListener.cpp */,
+				73BCFD0E1B170806000A60CF /* MyTouchEventListener.h */,
+				73C454361B453C8400F9941D /* MyComplexTouchEventListener.cpp */,
+				73C454371B453C8400F9941D /* MyComplexTouchEventListener.h */,
+				73DCD5B61B4EDA570096911B /* ShakeAction.cpp */,
+				73DCD5B71B4EDA570096911B /* ShakeAction.h */,
+			);
+			name = cocos;
+			sourceTree = "<group>";
+		};
+		73B76DE21AFCAC4E005299C2 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				73BCFD101B1708BA000A60CF /* BaseEffectData.h */,
+				73B76DE31AFCAC4E005299C2 /* DotMoveEffectData.h */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		73B76E001AFCBF3B005299C2 /* Legging */ = {
+			isa = PBXGroup;
+			children = (
+				73B76E011AFCBF3B005299C2 /* Legging.cpp */,
+				73B76E021AFCBF3B005299C2 /* Legging.h */,
+				73B76E031AFCBF3B005299C2 /* LeggingHelper.cpp */,
+				73B76E041AFCBF3B005299C2 /* LeggingHelper.h */,
+			);
+			name = Legging;
+			path = cocos/Legging;
+			sourceTree = "<group>";
+		};
+		73B76E071AFCBFF3005299C2 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				73DCD5C41B4EE31E0096911B /* AudioManager.cpp */,
+				73DCD5C51B4EE31E0096911B /* AudioManager.h */,
+				73B76E081AFCBFF3005299C2 /* CocosUtil.cpp */,
+				73B76E091AFCBFF3005299C2 /* CocosUtil.h */,
+			);
+			name = util;
+			path = cocos/util;
+			sourceTree = "<group>";
+		};
+		73B86AD91B0EC4DD002B8796 /* editText */ = {
+			isa = PBXGroup;
+			children = (
+				73B86ADA1B0EC50A002B8796 /* MyEditText.cpp */,
+				73B86ADB1B0EC50A002B8796 /* MyEditText.h */,
+				73B86ADC1B0EC50A002B8796 /* MyTextField.cpp */,
+				73B86ADD1B0EC50A002B8796 /* MyTextField.h */,
+			);
+			name = editText;
+			sourceTree = "<group>";
+		};
+		73B8BC5B1AF7687500DC27C3 /* Effect */ = {
+			isa = PBXGroup;
+			children = (
+				73B76DE41AFCAC4E005299C2 /* EffectDataFactory.cpp */,
+				73B76DE51AFCAC4E005299C2 /* EffectDataFactory.h */,
+				73B8BC5C1AF7687500DC27C3 /* EffectManager.cpp */,
+				73B8BC5D1AF7687500DC27C3 /* EffectManager.h */,
+				73B8BC5E1AF7687500DC27C3 /* IEffect.cpp */,
+				73B8BC5F1AF7687500DC27C3 /* IEffect.h */,
+				736470F61B3D3980005743A8 /* Effect.h */,
+				73B76DE21AFCAC4E005299C2 /* data */,
+				73B8BC601AF7687500DC27C3 /* Items */,
+			);
+			name = Effect;
+			path = cocos/Effect;
+			sourceTree = "<group>";
+		};
+		73B8BC601AF7687500DC27C3 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				73B990791B3D0BB8009FB142 /* ClipEffect.cpp */,
+				73B9907A1B3D0BB8009FB142 /* ClipEffect.h */,
+				73B362961B243F3300E0A8B0 /* LinePaintEffect.cpp */,
+				73B362971B243F3300E0A8B0 /* LinePaintEffect.h */,
+				73B8BC611AF7687500DC27C3 /* DotMoveEffect.cpp */,
+				73B8BC621AF7687500DC27C3 /* DotMoveEffect.h */,
+				73B8BC631AF7687500DC27C3 /* LineMoveEffect.cpp */,
+				73B8BC641AF7687500DC27C3 /* LineMoveEffect.h */,
+				73B8BC651AF7687500DC27C3 /* PaintEffect.cpp */,
+				73B8BC661AF7687500DC27C3 /* PaintEffect.h */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		73B8BC7E1AF76AE600DC27C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73DCD5C71B4EE40C0096911B /* sound */,
+				73B9C1131B4145F6009C910B /* btn_add_pattern.png */,
+				73A165BD1B296A5900633B46 /* leggingItem */,
+				73BCFD111B170BED000A60CF /* btn_cancel.png */,
+				73A65B921B0F75E600088A0C /* btn_close.png */,
+				73A65B931B0F75E600088A0C /* btn_rotate.png */,
+				73A65B941B0F75E600088A0C /* editbox.png */,
+				73A65B951B0F75E600088A0C /* lookbook */,
+				73A65B961B0F75E600088A0C /* typeline.png */,
+				732256361B036DB5008C7230 /* products */,
+				732256311B035ADE008C7230 /* slider */,
+				73BD675E1AEE2D950096B29B /* Images.xcassets */,
+				73BCFC431B0327E800EAB4C0 /* splash screen */,
+				73B76E0D1AFCC062005299C2 /* leggings */,
+				73B76E0B1AFCC035005299C2 /* config */,
+				73B8BC8F1AF76B6800DC27C3 /* effect */,
+				73B8BC901AF76B6800DC27C3 /* fonts */,
+				73B8BC911AF76B6800DC27C3 /* image */,
+				73B8BC921AF76B6800DC27C3 /* pattern */,
+				73B8BC931AF76B6800DC27C3 /* res */,
+				73B8BC941AF76B6800DC27C3 /* shader */,
+				73B8BC7F1AF76AE600DC27C3 /* CloseNormal.png */,
+				73B8BC801AF76AE600DC27C3 /* CloseSelected.png */,
+				73B8BC831AF76AE600DC27C3 /* HelloWorld.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		73B95A251B3BD7EC00C6F500 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				73B95A261B3BD82500C6F500 /* LeggingNavigationController.h */,
+				73B95A271B3BD82500C6F500 /* LeggingNavigationController.m */,
+				73DCF71C1B4E75D600100E90 /* LookbookNavigationController.h */,
+				73DCF71D1B4E75D600100E90 /* LookbookNavigationController.m */,
+			);
+			name = NavigationController;
+			sourceTree = "<group>";
+		};
+		73B9C10B1B41457B009C910B /* Arrange */ = {
+			isa = PBXGroup;
+			children = (
+				73B9C10D1B414598009C910B /* ArrangeBtn.cpp */,
+				73B9C10E1B414598009C910B /* ArrangeBtn.h */,
+				73B9C10F1B414598009C910B /* ArrangeItem.cpp */,
+				73B9C1101B414598009C910B /* ArrangeItem.h */,
+			);
+			name = Arrange;
+			sourceTree = "<group>";
+		};
+		73BC81351B0604650059ED21 /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				73BC81361B0604940059ED21 /* BottomTabBarItemView.h */,
+				73BC81371B0604940059ED21 /* BottomTabBarItemView.m */,
+				73B6673C1AFB59C500F0B390 /* BottomCollectionViewCell.h */,
+				73B6673D1AFB59C500F0B390 /* BottomCollectionViewCell.m */,
+				732989D61B5E24820084C157 /* BottomCollectionViewLabelCell.h */,
+				732989D71B5E24820084C157 /* BottomCollectionViewLabelCell.m */,
+				73BD99111B0475510059B29F /* LeggingInfoSlideView.h */,
+				73BD99121B0475510059B29F /* LeggingInfoSlideView.m */,
+				73F76E211B09B53900E2C5A4 /* PhotoChooseCollectionViewCell.h */,
+				73F76E221B09B53900E2C5A4 /* PhotoChooseCollectionViewCell.m */,
+				73DDFF4F1B4C3AC10061FC2A /* LinearLayoutView.h */,
+				73DDFF501B4C3AC10061FC2A /* LinearLayoutView.m */,
+			);
+			name = widget;
+			sourceTree = "<group>";
+		};
+		73BCFC451B032A1C00EAB4C0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				73BCFC4E1B0334CE00EAB4C0 /* MainViewController.h */,
+				73BCFC4F1B0334CE00EAB4C0 /* MainViewController.m */,
+				7322562E1B0357D2008C7230 /* MainPageContentViewController.h */,
+				7322562F1B0357D2008C7230 /* MainPageContentViewController.m */,
+				732256331B036BF7008C7230 /* LeggingChooseViewController.h */,
+				732256341B036BF7008C7230 /* LeggingChooseViewController.m */,
+				732256381B037C7F008C7230 /* LeggingInfoViewController.h */,
+				732256391B037C7F008C7230 /* LeggingInfoViewController.m */,
+				7310FC281AF22E830059178C /* LeggingViewController.h */,
+				7310FC291AF22E830059178C /* LeggingViewController.m */,
+				73A165BF1B29791D00633B46 /* LeggingPatternChooseViewController.h */,
+				73A165C01B29791D00633B46 /* LeggingPatternChooseViewController.m */,
+				735B76AE1B3D27130026E206 /* ChooseEffectViewController.h */,
+				735B76AF1B3D27130026E206 /* ChooseEffectViewController.m */,
+				733A32631AF6298000F981AD /* EffectViewController.h */,
+				733A32641AF6298000F981AD /* EffectViewController.m */,
+				73D64D031B4BE172000378D0 /* LeggingPreviewViewController.h */,
+				73D64D041B4BE172000378D0 /* LeggingPreviewViewController.m */,
+				73F76E1C1B09B13400E2C5A4 /* PhotoChooseViewController.h */,
+				73F76E1D1B09B13400E2C5A4 /* PhotoChooseViewController.m */,
+				73D376081B0B2676008E14B2 /* PhotoEditViewController.h */,
+				73D376091B0B2676008E14B2 /* PhotoEditViewController.m */,
+				73D3763D1B0B49A3008E14B2 /* LookBookViewController.h */,
+				73D3763E1B0B49A3008E14B2 /* LookBookViewController.m */,
+				73DB6BFC1B50F42F00F60347 /* TestViewController1.h */,
+				73DB6BFD1B50F42F00F60347 /* TestViewController1.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		73BD67451AEE2D940096B29B = {
+			isa = PBXGroup;
+			children = (
+				732989D31B5E1B790084C157 /* CoreImage.framework */,
+				73BD67501AEE2D940096B29B /* BSpokeApp */,
+				73BD676A1AEE2D950096B29B /* BSpokeAppTests */,
+				73F885311C6497C10026A171 /* cocos2d_libs.xcodeproj */,
+				73B8BC7E1AF76AE600DC27C3 /* Resources */,
+				73BD674F1AEE2D940096B29B /* Products */,
+				73BD67901AEE50150096B29B /* frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73BD674F1AEE2D940096B29B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73BD674E1AEE2D940096B29B /* BSpokeApp.app */,
+				73BD67671AEE2D950096B29B /* BSpokeAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73BD67501AEE2D940096B29B /* BSpokeApp */ = {
+			isa = PBXGroup;
+			children = (
+				73B95A251B3BD7EC00C6F500 /* NavigationController */,
+				73BC81351B0604650059ED21 /* widget */,
+				73BD99141B0485380059B29F /* PublicWidget */,
+				73BCFC451B032A1C00EAB4C0 /* ViewController */,
+				73B761061AEE7C2B00E11CCF /* cocos */,
+				73BD67551AEE2D950096B29B /* AppDelegate.h */,
+				73BD67561AEE2D950096B29B /* AppDelegate.mm */,
+				73BD67581AEE2D950096B29B /* ViewController.h */,
+				73BD67591AEE2D950096B29B /* ViewController.m */,
+				73BD675B1AEE2D950096B29B /* Main.storyboard */,
+				73BD67511AEE2D940096B29B /* Supporting Files */,
+				73B6673F1AFB623800F0B390 /* TestUIView.h */,
+				73B667401AFB623900F0B390 /* TestUIView.m */,
+				73BCFC491B032F6E00EAB4C0 /* Launch Screen.xib */,
+				732060081B03EC8C00FEEF88 /* LeggingInfoView.xib */,
+			);
+			path = BSpokeApp;
+			sourceTree = "<group>";
+		};
+		73BD67511AEE2D940096B29B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73BD67521AEE2D950096B29B /* Info.plist */,
+				73BD67531AEE2D950096B29B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73BD676A1AEE2D950096B29B /* BSpokeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				73BD676D1AEE2D950096B29B /* BSpokeAppTests.m */,
+				73BD676B1AEE2D950096B29B /* Supporting Files */,
+			);
+			path = BSpokeAppTests;
+			sourceTree = "<group>";
+		};
+		73BD676B1AEE2D950096B29B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73BD676C1AEE2D950096B29B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73BD67901AEE50150096B29B /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73F76E1F1B09B19100E2C5A4 /* Photos.framework */,
+				73BD679D1AEE54E20096B29B /* AudioToolbox.framework */,
+				73BD679B1AEE54D60096B29B /* AVFoundation.framework */,
+				73BD67991AEE54CA0096B29B /* OpenAL.framework */,
+				73BD67971AEE54BF0096B29B /* QuartzCore.framework */,
+				73BD67951AEE545A0096B29B /* libz.dylib */,
+				73BD67931AEE542B0096B29B /* CoreGraphics.framework */,
+				73BD678E1AEE4D470096B29B /* OpenGLES.framework */,
+				73BD678C1AEE4D370096B29B /* UIKit.framework */,
+				73BD678A1AEE4D2A0096B29B /* Foundation.framework */,
+				73BD67881AEE4D1A0096B29B /* CoreMotion.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		73BD99141B0485380059B29F /* PublicWidget */ = {
+			isa = PBXGroup;
+			children = (
+				73B362911B2439B200E0A8B0 /* AlertView.h */,
+				73B362921B2439B200E0A8B0 /* AlertView.m */,
+				73B362931B2439B200E0A8B0 /* AlertView.xib */,
+				73BC81321B0604580059ED21 /* MyUITabBar.h */,
+				73BC81331B0604580059ED21 /* MyUITabBar.m */,
+				73BD99151B0485380059B29F /* MySlideMenuController.h */,
+				73BD99161B0485380059B29F /* MySlideMenuController.m */,
+			);
+			name = PublicWidget;
+			path = widget;
+			sourceTree = "<group>";
+		};
+		73F885321C6497C10026A171 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73F885371C6497C20026A171 /* libcocos2d Mac.a */,
+				73F885391C6497C20026A171 /* libcocos2d iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73BD674D1AEE2D940096B29B /* BSpokeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73BD67711AEE2D950096B29B /* Build configuration list for PBXNativeTarget "BSpokeApp" */;
+			buildPhases = (
+				73BD674A1AEE2D940096B29B /* Sources */,
+				73BD674B1AEE2D940096B29B /* Frameworks */,
+				73BD674C1AEE2D940096B29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSpokeApp;
+			productName = BSpokeApp;
+			productReference = 73BD674E1AEE2D940096B29B /* BSpokeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73BD67661AEE2D950096B29B /* BSpokeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73BD67741AEE2D950096B29B /* Build configuration list for PBXNativeTarget "BSpokeAppTests" */;
+			buildPhases = (
+				73BD67631AEE2D950096B29B /* Sources */,
+				73BD67641AEE2D950096B29B /* Frameworks */,
+				73BD67651AEE2D950096B29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73BD67691AEE2D950096B29B /* PBXTargetDependency */,
+			);
+			name = BSpokeAppTests;
+			productName = BSpokeAppTests;
+			productReference = 73BD67671AEE2D950096B29B /* BSpokeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73BD67461AEE2D940096B29B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = luozhipeng;
+				TargetAttributes = {
+					73BD674D1AEE2D940096B29B = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 2CNYR46APR;
+					};
+					73BD67661AEE2D950096B29B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 73BD674D1AEE2D940096B29B;
+					};
+				};
+			};
+			buildConfigurationList = 73BD67491AEE2D940096B29B /* Build configuration list for PBXProject "BSpokeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73BD67451AEE2D940096B29B;
+			productRefGroup = 73BD674F1AEE2D940096B29B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 73F885321C6497C10026A171 /* Products */;
+					ProjectRef = 73F885311C6497C10026A171 /* cocos2d_libs.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				73BD674D1AEE2D940096B29B /* BSpokeApp */,
+				73BD67661AEE2D950096B29B /* BSpokeAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		73F885371C6497C20026A171 /* libcocos2d Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d Mac.a";
+			remoteRef = 73F885361C6497C20026A171 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		73F885391C6497C20026A171 /* libcocos2d iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d iOS.a";
+			remoteRef = 73F885381C6497C20026A171 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73BD674C1AEE2D940096B29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B76E0C1AFCC035005299C2 /* config in Resources */,
+				73B8BC951AF76B6800DC27C3 /* effect in Resources */,
+				73B8BC9A1AF76B6800DC27C3 /* shader in Resources */,
+				73B8BC991AF76B6800DC27C3 /* res in Resources */,
+				732060091B03EC8C00FEEF88 /* LeggingInfoView.xib in Resources */,
+				73BCFC441B0327E800EAB4C0 /* splash screen in Resources */,
+				73DCD5C81B4EE40C0096911B /* sound in Resources */,
+				73A65B9B1B0F75E600088A0C /* typeline.png in Resources */,
+				73B9C1141B4145F6009C910B /* btn_add_pattern.png in Resources */,
+				732256371B036DB5008C7230 /* products in Resources */,
+				73B362951B2439B200E0A8B0 /* AlertView.xib in Resources */,
+				73BD675D1AEE2D950096B29B /* Main.storyboard in Resources */,
+				73B8BC861AF76AE600DC27C3 /* CloseNormal.png in Resources */,
+				73BCFD121B170BED000A60CF /* btn_cancel.png in Resources */,
+				73B76E0E1AFCC062005299C2 /* leggings in Resources */,
+				73A165BE1B296A5900633B46 /* leggingItem in Resources */,
+				73B8BC871AF76AE600DC27C3 /* CloseSelected.png in Resources */,
+				73A65B971B0F75E600088A0C /* btn_close.png in Resources */,
+				732256321B035ADE008C7230 /* slider in Resources */,
+				73B8BC891AF76AE600DC27C3 /* HelloWorld.png in Resources */,
+				73A65B9A1B0F75E600088A0C /* lookbook in Resources */,
+				73B8BC971AF76B6800DC27C3 /* image in Resources */,
+				73B8BC981AF76B6800DC27C3 /* pattern in Resources */,
+				73BD675F1AEE2D950096B29B /* Images.xcassets in Resources */,
+				73A65B991B0F75E600088A0C /* editbox.png in Resources */,
+				73B8BC961AF76B6800DC27C3 /* fonts in Resources */,
+				73BCFC4A1B032F6F00EAB4C0 /* Launch Screen.xib in Resources */,
+				73A65B981B0F75E600088A0C /* btn_rotate.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BD67651AEE2D950096B29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73BD674A1AEE2D940096B29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BD675A1AEE2D950096B29B /* ViewController.m in Sources */,
+				73B667411AFB623900F0B390 /* TestUIView.m in Sources */,
+				73B8BC6B1AF7687500DC27C3 /* PaintEffect.cpp in Sources */,
+				73D3760A1B0B2676008E14B2 /* PhotoEditViewController.m in Sources */,
+				73DFEDAF1B4D72D7008D4B75 /* LeggingPreviewScene.cpp in Sources */,
+				73B86ADE1B0EC50A002B8796 /* MyEditText.cpp in Sources */,
+				73B76E0A1AFCBFF3005299C2 /* CocosUtil.cpp in Sources */,
+				73DCF71E1B4E75D600100E90 /* LookbookNavigationController.m in Sources */,
+				73BD67571AEE2D950096B29B /* AppDelegate.mm in Sources */,
+				73B362941B2439B200E0A8B0 /* AlertView.m in Sources */,
+				73B6673E1AFB59C500F0B390 /* BottomCollectionViewCell.m in Sources */,
+				73C454381B453C8400F9941D /* MyComplexTouchEventListener.cpp in Sources */,
+				73B76DE61AFCAC4E005299C2 /* EffectDataFactory.cpp in Sources */,
+				73B8BC681AF7687500DC27C3 /* IEffect.cpp in Sources */,
+				73D3763F1B0B49A3008E14B2 /* LookBookViewController.m in Sources */,
+				73B76DE91AFCBED9005299C2 /* ArrangeScene.cpp in Sources */,
+				73B76E061AFCBF3B005299C2 /* LeggingHelper.cpp in Sources */,
+				73BC81381B0604940059ED21 /* BottomTabBarItemView.m in Sources */,
+				732256301B0357D2008C7230 /* MainPageContentViewController.m in Sources */,
+				73B8BC6E1AF768AB00DC27C3 /* EffectScene.cpp in Sources */,
+				73BCFD0F1B170806000A60CF /* MyTouchEventListener.cpp in Sources */,
+				73B9C1121B414598009C910B /* ArrangeItem.cpp in Sources */,
+				73DCD5C61B4EE31E0096911B /* AudioManager.cpp in Sources */,
+				73BCFC501B0334CE00EAB4C0 /* MainViewController.m in Sources */,
+				735B76B01B3D27130026E206 /* ChooseEffectViewController.m in Sources */,
+				73B8BC691AF7687500DC27C3 /* DotMoveEffect.cpp in Sources */,
+				73B9C1111B414598009C910B /* ArrangeBtn.cpp in Sources */,
+				73B8BC671AF7687500DC27C3 /* EffectManager.cpp in Sources */,
+				73F76E231B09B53900E2C5A4 /* PhotoChooseCollectionViewCell.m in Sources */,
+				73A165C11B29791D00633B46 /* LeggingPatternChooseViewController.m in Sources */,
+				733A326A1AF71A0300F981AD /* CocosView.mm in Sources */,
+				73DB6BFE1B50F42F00F60347 /* TestViewController1.m in Sources */,
+				73B95A281B3BD82500C6F500 /* LeggingNavigationController.m in Sources */,
+				73BD99131B0475510059B29F /* LeggingInfoSlideView.m in Sources */,
+				7322563A1B037C7F008C7230 /* LeggingInfoViewController.m in Sources */,
+				73B86ADF1B0EC50A002B8796 /* MyTextField.cpp in Sources */,
+				73BA28111AFE0DE90076F63D /* SceneManager.cpp in Sources */,
+				73DDFF511B4C3AC10061FC2A /* LinearLayoutView.m in Sources */,
+				73BC81341B0604580059ED21 /* MyUITabBar.m in Sources */,
+				73B8BC6A1AF7687500DC27C3 /* LineMoveEffect.cpp in Sources */,
+				732989D81B5E24820084C157 /* BottomCollectionViewLabelCell.m in Sources */,
+				73F76E1E1B09B13400E2C5A4 /* PhotoChooseViewController.m in Sources */,
+				73B86AE21B0EC51A002B8796 /* LookbookScene.cpp in Sources */,
+				7310FC2A1AF22E830059178C /* LeggingViewController.m in Sources */,
+				73D64D051B4BE172000378D0 /* LeggingPreviewViewController.m in Sources */,
+				73B761091AEE7C3A00E11CCF /* CocosAppDelegate.mm in Sources */,
+				73BD99171B0485380059B29F /* MySlideMenuController.m in Sources */,
+				73B9907B1B3D0BB8009FB142 /* ClipEffect.cpp in Sources */,
+				73BD67541AEE2D950096B29B /* main.m in Sources */,
+				73B362981B243F3400E0A8B0 /* LinePaintEffect.cpp in Sources */,
+				732256351B036BF7008C7230 /* LeggingChooseViewController.m in Sources */,
+				733A32651AF6298000F981AD /* EffectViewController.m in Sources */,
+				73B76E051AFCBF3B005299C2 /* Legging.cpp in Sources */,
+				73DCD5B81B4EDA570096911B /* ShakeAction.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BD67631AEE2D950096B29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BD676E1AEE2D950096B29B /* BSpokeAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73BD67691AEE2D950096B29B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73BD674D1AEE2D940096B29B /* BSpokeApp */;
+			targetProxy = 73BD67681AEE2D950096B29B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73BD675B1AEE2D950096B29B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73BD675C1AEE2D950096B29B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73BD676F1AEE2D950096B29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../BSpokeCocosView/cocos2d/",
+					"$(SRCROOT)/../BSpokeCocosView/cocos2d/cocos",
+					"$(SRCROOT)/../BSpokeCocosView/cocos2d/external",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73BD67701AEE2D950096B29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../BSpokeCocosView/cocos2d/",
+					"$(SRCROOT)/../BSpokeCocosView/cocos2d/cocos",
+					"$(SRCROOT)/../BSpokeCocosView/cocos2d/external",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73BD67721AEE2D950096B29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: JiaLin Zhang (GHK4APXX37)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CC_TARGET_OS_IPHONE,
+					USE_FILE32API,
+					"COCOS2D_DEBUG=1",
+					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+					"DEBUG=1",
+				);
+				GCC_REUSE_STRINGS = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../BSpokeCocosView/cocos2d/",
+					"$(SRCROOT)/../BSpokeCocosView/cocos2d/cocos",
+					"$(SRCROOT)/BSpokeApp/cocos",
+				);
+				INFOPLIST_FILE = BSpokeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/luozhipeng/Documents/BSpoke/BSpokeCocosView/cocos2d/build/build/Debug-iphoneos",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		73BD67731AEE2D950096B29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: JiaLin Zhang (GHK4APXX37)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CC_TARGET_OS_IPHONE,
+					USE_FILE32API,
+					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+				);
+				GCC_REUSE_STRINGS = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../BSpokeCocosView/cocos2d/",
+					"$(SRCROOT)/../BSpokeCocosView/cocos2d/cocos",
+					"$(SRCROOT)/BSpokeApp/cocos",
+				);
+				INFOPLIST_FILE = BSpokeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/luozhipeng/Documents/BSpoke/BSpokeCocosView/cocos2d/build/build/Debug-iphoneos",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		73BD67751AEE2D950096B29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BSpokeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSpokeApp.app/BSpokeApp";
+			};
+			name = Debug;
+		};
+		73BD67761AEE2D950096B29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BSpokeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSpokeApp.app/BSpokeApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73BD67491AEE2D940096B29B /* Build configuration list for PBXProject "BSpokeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BD676F1AEE2D950096B29B /* Debug */,
+				73BD67701AEE2D950096B29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73BD67711AEE2D950096B29B /* Build configuration list for PBXNativeTarget "BSpokeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BD67721AEE2D950096B29B /* Debug */,
+				73BD67731AEE2D950096B29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73BD67741AEE2D950096B29B /* Build configuration list for PBXNativeTarget "BSpokeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BD67751AEE2D950096B29B /* Debug */,
+				73BD67761AEE2D950096B29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73BD67461AEE2D940096B29B /* Project object */;
+}
